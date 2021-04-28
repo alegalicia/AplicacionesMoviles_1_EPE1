@@ -1,0 +1,80 @@
+.ulP {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.liP {
+    position: relative;
+    float: left;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 15px 15px 0;
+}
+
+.info {
+    display: none;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 150PX;
+    color: #fff;
+    padding: 5px;
+}
+
+.liP:hover .info {
+    display: block;
+}
+
+img:hover {
+    opacity: 0.4;
+}
+
+.miDiv {
+    background-color: #3e69ee;
+    color: antiquewhite;
+    text-align: justify;
+    font-family: "New Tegomin", serif;
+}
+
+.miTexto {
+    font-size: 6em;
+    margin-bottom: 200px;
+    font-family: "New Tegomin", serif;
+}
+
+h1 {
+    font-family: "New Tegomin", serif;
+    font-style: italic;
+}
+
+hr {
+    margin-top: 200px;
+}
+
+p {
+    text-align: justify;
+}
+
+.miCss {
+    text-align: justify;
+}
+
+img {
+    width: 350px;
+}
+
+.fondo {
+    margin: 50px;
+    padding: 20px;
+    background-color: #3e69ee;
+}
+
+.fondo1 {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: cadetblue;
+}
