@@ -1,36 +1,39 @@
-.ulP {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-.liP {
-    position: relative;
-    float: left;
-    width: 300px;
-    overflow: hidden;
-    margin: 0 15px 15px 0;
-}
-
-.info {
-    display: none;
-    margin: auto;
+p {
     position: absolute;
-    bottom: 0;
-    z-index: 10;
-    background: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    font-size: 2em;
+    padding: 15px;
+}
+
+.texto1 {
+    color: black;
+    border: #3e69ee;
+}
+
+.texto2 {
+    padding-top: 10px;
+    border-style: solid;
+    margin: 10px;
     width: 200px;
-    height: 150PX;
-    color: #fff;
-    padding: 5px;
+    height: -10px;
+    color: red;
+    opacity: 0;
 }
 
-.liP:hover .info {
-    display: block;
+.selector {
+    background-color: #b2bad1;
 }
 
-img:hover {
-    opacity: 0.4;
+.selector:hover :nth-child(2) {
+    opacity: 1;
+}
+
+.selector:hover :nth-child(1) {
+    opacity: 0;
+}
+
+.selector:hover img {
+    opacity: 0.5;
 }
 
 .miDiv {

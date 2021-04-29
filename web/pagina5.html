@@ -64,27 +64,28 @@
     <h1 class="h1 text-center mt-3">Pagina 5</h1>
 
     <div class="container">
-        <div class="row">
-            <div class="col align-self-end">
-                <form action="cargar" method="post" class="col-4 m-3">
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Ingrese su nombre</label>
-                        <input type="text" class="form-control" name="nombre" placeholder="Usuario" maxlength="30" required />
+        <div class="shadow-lg p-3 col-4">
+            <div class="row">
+                <div class="col align-self-end">
+                    <form action="cargar" method="post">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Ingrese su nombre</label>
+                            <input type="text" class="form-control" name="nombre" placeholder="Usuario" maxlength="30" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="clave" class="form-label">Ingrese E-mail </label>
+                            <input type="email" name="E-mail" class="form-control" placeholder="E-mail" maxlength="30" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Ingrese su numero de telefono</label>
+                            <input type="text" class="form-control" name="numero" placeholder="numeto de telefono" maxlength="30" required />
+                            <br>
+                            <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                    </form>
                     </div>
-                    <div class="mb-3">
-                        <label for="clave" class="form-label">Ingrese E-mail </label>
-                        <input type="email" name="E-mail" class="form-control" placeholder="E-mail" maxlength="30" required />
-                    </div>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Ingrese su numero de telefono</label>
-                        <input type="text" class="form-control" name="numero" placeholder="numeto de telefono" maxlength="30" required />
-                        <br>
-                        <button type="submit" class="btn btn-outline-primary">Enviar</button>
-                </form>
                 </div>
             </div>
         </div>
-
 
         <hr>
         <footer style="text-align: center; color: blue;"><strong> Concha / Tamayo / Reyes / Cabrera / Galicia </strong>
