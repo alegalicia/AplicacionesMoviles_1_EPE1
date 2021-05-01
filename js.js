@@ -99,26 +99,40 @@ function recuperar(pedido, respuesta) {
           Desarrollo de Aplicaciones Moviles 1 - EPE1
         </h1>
     
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Menú</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pagina1.html">Pagina 1</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pagina2.html">Pagina 2</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pagina3.html">Pagina 3</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pagina4.html">Pagina 4</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pagina5.html">Pagina 5</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pagina6.html">Pagina 6</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="login.html">Iniciar Sesión</a>
+        </li>
+        <li class="nav-item"></li>
+    </ul>
+</div>
+</div>
+</nav>
         <h1 class="h1 text-center mt-5">Datos Ingresados</h1>
         <div class="m-4 col-4 container row justify-content-md-center">
             <div class="alert alert-primary" role="alert">
@@ -211,13 +225,30 @@ function guardardatos(pedido, respuesta) {
             </div>
         </div>
     </nav>
-    <h1 class="h1 text-center mt-3">ingreso de datos</h1>
+    <h1 class="h1 text-center mt-3">Datos ingresados</h1>
     <center>
-  <strong><b>Nombre de usuario: </strong></b>${formulario['nombre']}<br>
-   <strong><b> E-mail: </strong></b>${formulario['E-mail']}<br>
-   <strong><b> numero: </strong></b>${formulario['numero']}<hr>
-    <a href="pagina5.html">Retornar</a>
-  </centeer>
+<div class="col-4">
+    <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Correo</th>
+        <th scope="col">Numero Tel.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>${formulario['nombre']}</td>
+        <td>${formulario['E-mail']}</td>
+        <td>${formulario['numero']}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+   <br>
+   <br>
+   <br>
+   <br>
 <footer style="text-align: center; color: blue;"><strong> Concha / Tamayo / Reyes / Cabrera / Galicia </strong></footer>
   </body>
   </body>
